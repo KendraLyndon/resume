@@ -31,6 +31,8 @@ section {
     font-family: "Syncopate", sans-serif;
     font-size: 20px;
     color: #a64d79; }
+  .header-left .subtitle-small {
+    display: none; }
 
 address {
   float: right;
@@ -121,12 +123,38 @@ hr {
   margin: 0;
   color: #666666; }
 
-@media (max-width: 900px) {
+@media (max-width: 750px) {
   header, main {
-    width: 100%; }
+    width: 85%; }
+
+  .header-left h1 {
+    text-align: center; }
+  .header-left .subtitle {
+    text-align: center; }
 
   .header-left, .header-right, .main-left, .main-right {
     float: none;
-    width: 98%; } }
+    width: 98%; }
+
+  .header-right {
+    text-align: center; } }
+@media (max-width: 500px) {
+  header, main {
+    width: 100%; }
+
+  h1 {
+    font-size: 31px !important; }
+
+  .header-left .subtitle {
+    display: none !important; }
+  .header-left .subtitle-small {
+    display: block !important;
+    text-align: center;
+    margin-bottom: 0;
+    font-family: "Syncopate", sans-serif;
+    font-size: 20px;
+    color: #a64d79; }
+  .header-left .subtitle-small:last-child {
+    margin-top: 5px; } }
 
 /*# sourceMappingURL=input.css.map */
