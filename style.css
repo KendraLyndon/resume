@@ -1,5 +1,41 @@
-body {
+* {
+  font-family: "Droid Sans", sans-serif;
+  color: #454545;
+}
+header{
   margin: 0 auto 0 auto;
-  width: 80vw;
-  background-color: blue;
+  width: 75vw;
+}
+.header-left{
+  float:left;
+  width: 70%;
+}
+h1 {
+  font-family: "Syncopate", sans-serif;
+  font-size: 35px;
+}
+.subtitle {
+  font-family: "Syncopate", sans-serif;
+  
+}
+.header-right{
+  float:right;
+  width: 30%;
+}
+address {
+  font-style: normal;
+  font-size: 14px;
+}
+main {
+  margin: 0 auto 0 auto;
+  width: 75vw;
+  clear: both;
+}
+.main-left{
+  float: left;
+  width: 70%;
+}
+.main-right{
+  float: right;
+  width: 30%;
 }
