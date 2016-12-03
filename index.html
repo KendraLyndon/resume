@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans|Syncopate:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700|Open+Sans|Syncopate:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/input.css" />
     <title>Kendra Lyndon Resume</title>
   </head>
   <body>
@@ -25,41 +25,43 @@
     <main>
       <div class="main-left">
         <section class="projects">
-          <h2>Projects</h2>
+          <h2>PROJECTS</h2>
           <hr />
-          <div class="project-pianissimo">
-            <h3>Pianissimo <a href="http://www.galvanize.com/blog/i-made-this-kendra-lyndon-pianissimo/?utm_source=sumome&utm_medium=facebook&utm_campaign=sumome_share">view feature article</a></h3>
-            <p>
+          <div class="project">
+            <h3 class="project-title">Pianissimo <a href="http://www.galvanize.com/blog/i-made-this-kendra-lyndon-pianissimo/?utm_source=sumome&utm_medium=facebook&utm_campaign=sumome_share">view feature article</a></h3>
+            <p class="project-tech">
               Java / XML / Android Studio
             </p>
-            <p>
+            <p class="project-description">
               Native Android app featuring an interactive 88-key piano keyboard. Available in the Google Play store.
             </p>
           </div>
-          <div class="project-coffeesnob">
-            <h3>Coffee Snob <a href="http://coffeesnob-kl.herokuapp.com/">view project site</a></h3>
-            <p>
+          <div class="project">
+            <h3 class="project-title">Coffee Snob <a href="http://coffeesnob-kl.herokuapp.com/">view project site</a></h3>
+            <p class="project-tech">
               Node.js / Express / Jade / PostgreSQL / Google Maps API / custom CSS
             </p>
-            <p>
+            <p class="project-description">
               Web-based app where users can find local coffee shops in their city and save their favorite cafes to their account.
             </p>
           </div>
-          <div class="project-shoptacular">
-            <h3>Shoptacular <a href="https://shopify-fdcbf.firebaseapp.com/">view project site</a></h3>
-            <p>
+          <div class="project">
+            <h3 class="project-title">Shoptacular <a href="https://shopify-fdcbf.firebaseapp.com/">view project site</a></h3>
+            <p class="project-tech">
               AngularJS / BootstrapCSS
             </p>
-            <p>
+            <p class="project-description">
               E-commerce shopping cart where users can add items and check out.
             </p>
           </div>
         </section>
+
         <section class="experience">
-          <h2>Experience</h2>
+          <h2>EXPERIENCE</h2>
           <hr />
+
           <div class="experience-job">
-            <h3><b>Nordstrom,</b> Seattle -- Merchandise Specialist</h3>
+            <h3 class="experience-title"><span class="bold">Nordstrom,</span> Seattle -- Merchandise Specialist</h3>
             <p class="experience-subtitle">
               July 2015 - April 2016
             </p>
@@ -69,8 +71,9 @@
               <li>Identified and documented new best practices</li>
             </ul>
           </div>
+
           <div class="experience-job">
-            <h3><b>Nordstrom,</b> Seattle -- Buying Office Assistant</h3>
+            <h3 class="experience-title"><span class="bold">Nordstrom,</span> Seattle -- Buying Office Assistant</h3>
             <p class="experience-subtitle">
               January 2014 - July 2015
             </p>
@@ -79,8 +82,9 @@
               <li>Identified, researched, and proactively resolved issues</li>
             </ul>
           </div>
+
           <div class="experience-job">
-            <h3><b>Nordstrom,</b> Seattle -- Communications Operator</h3>
+            <h3 class="experience-title"><span class="bold">Nordstrom,</span> Seattle -- Communications Operator</h3>
             <p class="experience-subtitle">
               March 2013 - January 2014
             </p>
@@ -90,17 +94,18 @@
           </div>
         </section>
       </div>
+
       <div class="main-right">
         <section class="skills">
-          <h2>Skills</h2>
-          <hr />
-          <ul class="skills-languages">Languages
+          <h2>SKILLS</h2>
+          <hr class="hr-right"/>
+          <ul class="skills-list">Languages
             <li>JavaScript</li>
             <li>HTML5</li>
             <li>CSS3</li>
             <li>Java</li>
           </ul>
-          <ul class="skills-tools">Tools
+          <ul class="skills-list">Tools
             <li>Node.js</li>
             <li>AngularJS</li>
             <li>Express</li>
@@ -113,7 +118,7 @@
             <li>Git + Github</li>
             <li>Firebase + Heroku</li>
           </ul>
-          <ul class="skills-techniques">Techniques
+          <ul class="skills-list">Techniques
             <li>Agile Development</li>
             <li>Pair Programming</li>
             <li>Object Oriented Programming</li>
@@ -121,25 +126,26 @@
             <li>Responsive Design</li>
           </ul>
         </section>
+
         <section class="education">
-          <h2>Education</h2>
-          <hr />
-          <div class="education-galvanize">
-            <h3>Web Development Immersive</h3>
-            <p>
+          <h2>EDUCATION</h2>
+          <hr class="hr-right"/>
+          <div class="ed-place">
+            <h3 class="ed-title">Web Development Immersive</h3>
+            <p class="ed-location">
               Galvanize -- Denver, CO
             </p>
-            <p>
-              October 2016
+            <p class="ed-date">
+              OCTOBER 2016
             </p>
           </div>
-          <div class="education-galvanize">
-            <h3>Bachelor of Arts in Music</h3>
-            <p>
-              Western Washington University
+          <div class="ed-place">
+            <h3 class="ed-title">Bachelor of Arts in Music</h3>
+            <p class="ed-location">
+              Western Washington University -- Bellingham, WA
             </p>
-            <p>
-              June 2012
+            <p class="ed-date">
+              JUNE 2012
             </p>
           </div>
         </section>
