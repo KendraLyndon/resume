@@ -25,9 +25,9 @@ section {
   .header-left h1 {
     margin-bottom: 15px;
     font-family: "Syncopate", sans-serif;
-    font-size: 35px; }
+    font-size: 37px; }
   .header-left .subtitle {
-    margin: 10px 0 10px 0;
+    margin: 20px 0 0 0;
     font-family: "Syncopate", sans-serif;
     font-size: 22px;
     color: #a64d79; }
@@ -124,6 +124,11 @@ hr {
   margin: 0;
   color: #666666; }
 
+@media (max-width: 1039px) {
+  .header-left h1 {
+    font-size: 35px; }
+  .header-left .subtitle {
+    margin-top: 24px; } }
 @media (max-width: 980px) {
   .header-left h1 {
     font-size: 31px; } }

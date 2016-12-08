@@ -41,10 +41,10 @@ section {
   h1 {
     margin-bottom: 15px;
     font-family: $syncopate;
-    font-size: 35px;
+    font-size: 37px;
   }
   .subtitle {
-    margin: 10px 0 10px 0;
+    margin: 20px 0 0 0;
     font-family: $syncopate;
     font-size: 22px;
     color: $pink;
@@ -172,6 +172,17 @@ hr {
     font-size: 13px;
     margin: 0;
     color: $light-grey;
+  }
+}
+
+@media (max-width: 1039px) {
+  .header-left {
+    h1 {
+      font-size: 35px;
+    }
+    .subtitle {
+      margin-top: 24px;
+    }
   }
 }
 
