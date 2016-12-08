@@ -29,17 +29,15 @@ section {
   .header-left .subtitle {
     margin: 10px 0 10px 0;
     font-family: "Syncopate", sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     color: #a64d79; }
-  .header-left .subtitle-small {
-    display: none; }
 
 address {
   float: right;
   width: 30%;
   margin-top: 23.45px;
   font-style: normal;
-  font-size: 13px; }
+  font-size: 12px; }
 
 main {
   margin: 0 auto 0 auto;
@@ -76,7 +74,7 @@ hr {
   margin-bottom: 0;
   font-size: 16px;
   font-weight: bold; }
-  .project-title a {
+  .project-title .link2 {
     margin-left: 10px;
     font-size: 13px;
     font-weight: normal; }
@@ -153,28 +151,23 @@ hr {
     width: 100%; }
 
   .header-left .subtitle {
-    display: none !important; }
-  .header-left .subtitle-small {
-    display: block !important;
     text-align: center;
-    margin-bottom: 0;
-    font-family: "Syncopate", sans-serif;
-    font-size: 20px;
-    color: #a64d79; }
-  .header-left .subtitle-small:last-child {
-    margin-top: 5px; }
+    font-size: 20px; }
 
   hr, .hr-right {
     width: 100%; } }
 @media (max-width: 387px) {
   .header-left h1 {
     font-size: 27px; }
-  .header-left .subtitle-small {
+  .header-left .subtitle {
     font-size: 17px; } }
+@media (max-width: 340px) {
+  .header-left h1 {
+    font-size: 22px; }
+  .header-left .subtitle {
+    font-size: 15px; } }
 @media (max-width: 320px) {
   .header-left h1 {
-    font-size: 24px; }
-  .header-left .subtitle-small {
-    font-size: 15px; } }
+    font-size: 20px; } }
 
 /*# sourceMappingURL=input.css.map */
