@@ -209,6 +209,8 @@ hr {
   }
   .ed-place {
     width: 325px;
+    margin-left: auto;
+    margin-right: auto;
   }
   hr {
     width: 450px;
@@ -246,8 +248,11 @@ hr {
 }
 
 @media (max-width: 400px) {
-  .project, .experience-job, .ed-place {
+  .project, .experience-job {
     width: 98%;
+  }
+  .ed-place {
+    width: 85%;
   }
 }
 
