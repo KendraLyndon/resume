@@ -149,7 +149,7 @@ hr {
     margin-right: auto; }
 
   .ed-place {
-    width: 325px;
+    width: 235px;
     margin-left: auto;
     margin-right: auto; }
 
@@ -179,10 +179,7 @@ hr {
     width: 100%; } }
 @media (max-width: 400px) {
   .project, .experience-job {
-    width: 98%; }
-
-  .ed-place {
-    width: 85%; } }
+    width: 98%; } }
 @media (max-width: 387px) {
   .header-left h1 {
     font-size: 27px; }
