@@ -175,6 +175,23 @@ hr {
   }
 }
 
+.download-left {
+  float: left;
+}
+
+.download-right {
+  display: none;
+}
+
+.resume-link {
+  text-decoration: none;
+  font-family: $droid;
+  color: $pink;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
 @media (max-width: 1039px) {
   .header-left {
     h1 {
@@ -239,6 +256,14 @@ hr {
     text-align: center;
   }
   h2 {
+    text-align: center;
+  }
+  .download-left {
+    display: none;
+  }
+
+  .download-right {
+    display: block;
     text-align: center;
   }
 }
