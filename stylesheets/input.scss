@@ -102,8 +102,12 @@ hr {
 
 .project-title {
   margin-bottom: 0;
-  font-size: 16px;
-  font-weight: bold;
+
+  a {
+    font-family: $droid;
+    font-weight: bold;
+    font-size: 16px;
+  }
 
   .link2 {
     margin-left: 10px;
@@ -197,12 +201,28 @@ hr {
   .header-right {
     text-align: center;
   }
+  .project, .experience-job {
+    width: 390px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ed-place {
+    width: 325px;
+  }
+  hr {
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 750px) {
   .main-left, .main-right {
     float: none;
     width: 99%;
+  }
+  .skills-list{
+    text-align: center;
   }
   h2 {
     text-align: center;
@@ -221,6 +241,12 @@ hr {
   }
   hr, .hr-right {
     width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .project, .experience-job, .ed-place {
+    width: 98%;
   }
 }
 
